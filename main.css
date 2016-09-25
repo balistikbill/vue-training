@@ -1,0 +1,31 @@
+html, body {
+	height: 100%;
+}
+
+#app {
+	/*height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;*/
+	width: auto;
+	max-width: 600px;
+}
+
+.plan_name {
+	float: left;
+	clear: left;
+	width: 10rem;
+}
+
+.plan_price {
+	float: left;
+	margin-left: 10px;
+	width: 5rem;
+}
+
+.right {
+	float: left;
+	margin-left: 20px;
+}
+

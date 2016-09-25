@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lesson</title>
+	<link rel=stylesheet href="main.css">
+</head>
+<body>
+
+	<div id="app">
+
+		<div v-for="person in persons">
+			<div>{{ person.first }}</div>
+			<div>{{ person.last }}</div>
+		</div>
+
+	</div>
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.27/vue.js"></script>
+
+<script>
+	new Vue ({
+		el: '#app',
+
+		data: {
+			persons: [
+				{ first: 'Billy', last: 'Clark' },
+				{ first: 'Jeff', last: 'Way' }
+			]
+		}
+
+	});
+</script>
+
+</body>
+</html>
